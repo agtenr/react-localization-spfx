@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "property-pane-localization-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyPaneLocalization/PropertyPaneLocalizationWebPart.js",
+          "manifest": "./src/webparts/propertyPaneLocalization/PropertyPaneLocalizationWebPart.manifest.json"
+        }
+      ]
+    },
+    "user-profile-localization-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/userProfileLocalization/UserProfileLocalizationWebPart.js",
+          "manifest": "./src/webparts/userProfileLocalization/UserProfileLocalizationWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {}
+}
